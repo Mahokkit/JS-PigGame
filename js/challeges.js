@@ -31,8 +31,8 @@ document.querySelector('.btn-roll').addEventListener('click', function(){
 
         // 2. display the result
         showDice();
-        document.getElementById('dice-1').src = 'dice-' + dice1 + '.png';
-        document.getElementById('dice-2').src = 'dice-' + dice2 + '.png';
+        document.getElementById('dice-1').src = 'img/dice-' + dice1 + '.png';
+        document.getElementById('dice-2').src = 'img/dice-' + dice2 + '.png';
         
         // 3. update the round score IF the rolled number was NOT a 1 or if player roll 2 sixes
         if (dice1 === 6 && lastDice1 === 6 || dice2 === 6 && lastDice2 === 6){
